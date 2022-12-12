@@ -60,3 +60,9 @@ class RocketChatLivechat(RocketChatBase):
         return self.call_api_get(
             "livechat/messages.history/{}".format(rid), token=token, kwargs=kwargs
         )
+    
+    def livechat_get_message(self, token, rid, message_id, **kwargs):
+        """Get Livechat message."""
+        return self.call_api_get(
+            "livechat/message/{}".format(message_id), token=token, rid=rid, kwargs=kwargs
+        )
