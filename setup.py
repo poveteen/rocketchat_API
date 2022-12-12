@@ -10,7 +10,7 @@ setup(
         "rocketchat_API.APIExceptions",
         "rocketchat_API.APISections",
     ],
-    url="https://github.com/jadolg/rocketchat_API",
+    url="https://github.com/poveteen/rocketchat_API",
     license="MIT",
     author="Jorge Alberto Díaz Orozco",
     author_email="diazorozcoj@gmail.com",
